@@ -1,8 +1,10 @@
 <template>
-    <div class="description"><slot></slot></div>
-    <p>
-        <a class="slds-text-link" href={sourceURL} target="source"
-            >View Source</a
-        >
-    </p>
+    <div>
+        <div>Name: {name}</div>
+        <div>Description: {description}</div>
+        <div>Category: {category}</div>
+        <div>Material: {material}</div>
+        <div>Price: {price}</div>
+        <div><img src={pictureUrl}/></div>
+    </div>
 </template>
